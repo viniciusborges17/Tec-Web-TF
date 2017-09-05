@@ -241,3 +241,20 @@ ul{
     border: 1px groove #f61067;
     margin-left: 3%;
 }
+
+
+.disciplinas h3{text-align:center;
+background-color:#8d99ae;
+} 
+2
+.informacoes_basicas h2{
+text-align:left;
+
+}
+.informacoes_basicas img{
+	height: 100px;
+	
+}
+.informacoes_basicas{
+	margin-top-:20px;
+}
