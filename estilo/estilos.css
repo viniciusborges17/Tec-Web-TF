@@ -5,6 +5,8 @@
 #004765 another blue
 */
 
+/*1037x662*/
+
 /*.navbar{
 	float: left;
 }*/
@@ -25,10 +27,9 @@ h1{
 }
 
 .body{
-	padding: 2%;
-	height: 100%;
+	padding: 0% 2% 0% 2%;
+/*	height: 70%;*/
     margin: 6% 8% 6% 8%;
-
 }
 .propaganda{
     background-color: #F0F9EC;
@@ -61,10 +62,9 @@ h1{
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    /*padding: 20px;*/
     padding-top: 10px;
     overflow: hidden;
-    background-color: #2b2d42;
+    background-color: #2d2b3b;
     top: 0;
     width: 100%;
     text-align: center;
@@ -136,7 +136,6 @@ ul{
     text-align: center;
     background-color: #2b2d42;
     border-top: 1px groove #f61067;
-    border-radius: 3px;
     color: white;
     padding: 0;
     position: flex;
@@ -255,4 +254,56 @@ text-align:left;
 }
 .informacoes_basicas{
 	margin-top-:20px;
+}
+
+@media only screen and (max-width: 1056px){
+
+    .navbar img{
+        height: 3.2em;
+    }
+/*    .navbar li {
+        float: left;
+    }*/
+    .navbar li a {
+        font-size: 10px;
+        padding: 0;
+        padding: 20px;
+    }
+    .navbar ul {
+        height: 70px;
+    }
+
+    .img_aluno{
+        width: 25%;
+        margin-left: 0;
+    }
+    .depoimento { 
+        margin: 22% 15% 15% 15%;
+        padding: 5%;
+    }
+}
+@media only screen and (max-width: 760px){
+    .depoimento { 
+        margin: 0;
+        padding: 10% 1% 0% 1%;
+        margin: 28% 10% 10% 0%;
+    }
+    .depoimento p{
+        text-align: justify;
+    } 
+    .navbar img{
+        height: 2em;
+    }
+    .img_aluno{
+        width: 50%;
+    }
+    .body{
+        padding-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0;
+    }
+    .ex_alunos h3{
+        width: 100%;
+    }
 }
