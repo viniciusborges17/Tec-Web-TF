@@ -26,9 +26,8 @@ h1{
 
 .body{
 	padding: 2%;
-	margin-top: 2%;
-    height: 100%;
-    margin: 8%;
+	height: 100%;
+    margin: 6% 8% 6% 8%;
 
 }
 .propaganda{
@@ -56,22 +55,24 @@ h1{
 .navbar{
     position: absolute;
     z-index: 100;
+    
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 4px;
+    /*padding: 20px;*/
     padding-top: 10px;
     overflow: hidden;
     background-color: #2b2d42;
-    position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
     border-bottom: 1px groove #f61067;
-    border-radius: 10px;
     margin-top: -1%;
+    height: 100px;
+    position: fixed;
+    padding-left: 0;
 } 
 
 .navbar li a {
@@ -80,22 +81,18 @@ h1{
     text-align: center;
     padding: 1em 1em;
     text-decoration: none;
-
+    height: 100%;
+    padding-top: 35px;
+    padding-left: 10px;
 }
 .navbar li {
+    float: right;
+    height: 100%;
+}
+.navbar img{
+    height: 5.2em;
     float: left;
 }
-th, td {
-    padding: 15px;
-    text-align: justify;
-}
-th{
-	text-align: center;
-}
-table{
-	border-collapse: collapse;
-}
-
 ul{
 	list-style-type: none;
 	margin-top: 0;
@@ -103,7 +100,8 @@ ul{
 .navbar a:hover {
   background-color: #ddd;
   color: black;
-  border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .img_curso {
