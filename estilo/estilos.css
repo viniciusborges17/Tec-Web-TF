@@ -28,7 +28,7 @@ h1{
 
 .body{
 	padding: 0% 2% 0% 2%;
-/*	height: 70%;*/
+	height: 100%;
     margin: 6% 8% 6% 8%;
 }
 .propaganda{
@@ -193,6 +193,20 @@ ul{
     margin-top: 6%;
     padding: 5px;
 }
+.noticia {
+	width: 100%;
+    text-align: center;
+    border: 2px groove #004766;
+    margin-right: 10%;
+    margin-top: 6%;
+    padding: 5px;
+}
+.noticia p {
+	text-align: justify;
+}
+.noticia img{
+	text-align: center;
+}
 
 .depoimento p{
     padding: 5px;
@@ -293,6 +307,7 @@ text-align:left;
     } 
     .navbar img{
         height: 2em;
+		margin-top: .7em;
     }
     .img_aluno{
         width: 50%;
