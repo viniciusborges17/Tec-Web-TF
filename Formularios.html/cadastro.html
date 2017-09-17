@@ -1,28 +1,39 @@
 <head>
-   <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="John Doe">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div class="padrão">
+</head>
+<div class="formCadastro">
 <h2> Cadastre-se!</h2>
 <form  name="xitsu" method="POST"> 
-	nome: <br/><input name = "sesqueci"  id = "sesqueci"> <br/>
-	<br/>
-	sexo:<br/> 
-	<select	name="Sexo" type="submit">
+	<label for="nome">Nome: </label>
+	<input name = "nome"  id = "nome">
+	<br />
+	<label for="sexo">Sexo: </label>
+	<select	id="sexo" name="sexo">
+		<option>Selecione</option>
 		<option value="m">Masculino</option>
-		<option value="f">feminino</option>
-		</select>
-		<br/><br/>
-	Email:<br/><input name = "sesqueci" type="email" id = "sesqueci"> <br/>	
-	<br/>
-	Telefone: <br/><input name = "sesqueciconfirm" type="number" id = "confirm"> <br/>
-	Data de nascimento:<br/><input name = "sesqueci" type="datetime" id = "sesqueci"> <br/>
-	<br/>
-	RA: <br/><input name = "sesqueciconfirm" type="number" id = "confirm"> <br/><br/>
-	Curso:<br/><input name = "sesqueci"  type="checkbox" value="check">SI <br/>
-	<br/>
-</div>	
+		<option value="f">Feminino</option>
+	</select>
+	<br />
+	<label for="email">Email: </label>
+	<input name="email" type="email" id = "email">
+	<br />
+	<label for="telefone">Telefone: </label>
+	<input id="telefone" name = "telefone" type="tel">
+	<br />
+	<label for="nasc">Data de nascimento: </label>
+	<input name = "nasc" type="datetime" id = "nasc">
+	<br />
+	<label for="ra">RA: </label>
+	<input name = "RA" type="number" id = "ra">
+	<br />
+	<label for="curso">Curso: </label>
+	<select>
+		<option>Selecione</option>
+		<option>Sistemas de informação</option>
+		<option>Redes</option>
+		<option>Gestão de SI</option>
+		<option>Análise e desenvolvimento</option>
+	</select>
 </form>
-</head>
+</div>
