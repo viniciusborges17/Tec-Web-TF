@@ -37,7 +37,6 @@ h1{
 .navbar{
     position: absolute;
     z-index: 100;
-    
 }
 .navbar ul {
     list-style-type: none;
