@@ -1,0 +1,19 @@
+<form id="disciplina">
+	<div class="row">
+		<label for="prof">Professor Responsável:</label><br />
+		<input id="prof" name="prof" type="text"   /><br />
+                <label for="hora">Horas Mensais:</label><br />
+		<input id="hora" name="horas" type="text"   /><br />   
+	
+		<label for="aula"> Duração da aula:</label><br />
+		<input id="aula" name="aula"  type="text"   /><br />
+                
+                <label for="dia"> Dia da Semana :</label><br />
+                <input id="dia" name="dia"  type="text" value=""  /><br />
+                
+                <label for="ementa"> Ementa:</label><br />
+               <textarea id="ementa" name="ementa" type=text > </textarea><br />
+	</div>
+	<input id="limpar" type="reset" value="Limpar"/>
+	<input id="cadastrar" type="submit" value="Cadastar" />
+</form>		
