@@ -7,13 +7,11 @@
 
 /*1037x662*/
 
-/*.navbar{
-	float: left;
-}*/
 * {
     box-sizing: border-box;
 }
 body {
+    color: white;
 	margin: 0;
     font-family: 'Encode Sans', sans-serif;
     background-color: black;
@@ -36,13 +34,11 @@ h1{
     width: 100%;
     border-bottom: 1px groove #f61067;
 }
-
 .navbar{
     position: absolute;
     z-index: 100;
     
 }
-
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -58,7 +54,6 @@ h1{
     position: fixed;
     padding-left: 0;
 } 
-
 .navbar li a {
     display: block;
     color: white;
@@ -89,102 +84,110 @@ ul{
   width: 100%;
   height: 100%;
 }
-
+.cursos_geral{
+    display: table;
+    width: 100%;
+}
+.cursos_geral h3{
+    font-size: 22px;
+    color: #f61067;
+    line-height: 150%;
+    width: 60%;
+    margin-right: 80%;
+}
 .img_curso {
+    color: black;
     width: 15%;
     text-align: center;
-    font-style: italic;
     font-size: smaller;
     text-indent: 0;
     border: 1px groove #f61067;
     margin-left: 1em;
-    background-color: #F0F9EC;
+    background-color: white;
     position: absolute;
 }
 .conteudo_curso{
     float: right;
     width: 80%;
     text-align: center;
-    border: 2px groove #004766;
+    border: 1px groove #f61067;
     margin-top: 2em;
     margin-left: 10%;
     line-height: 150%;
-    
 }
-
+.conteudo_curso p{
+    color: white;
+}
+.conteudo_curso p a{
+    color: white;
+}
 .lista_cursos{
     display: table;
     width: 90%;
 }
-
-
 .footer{
     text-align: center;
-    background-color: #2d2b3b;
+    background-color: black;
     border-top: 1px groove #f61067;
     color: white;
     padding: 0;
     position: flex;
     overflow: hidden;
 }
-
 .footer p{
     margin-top: 5px;
     padding: 0;
 }
-
 .lista_cursos a{
     text-decoration: none;
     color: black;
 }
-
 .conteudo_curso:hover{
     background-color: #A9AFB9;
     border: 2px groove #f61067;
 }
-
 .curriculo{
     text-decoration: underline;
 }
-
 .sobre{
     color: white;
     width: 100%;;
     /*margin-left: 10%;*/
     line-height: 150%;
     text-align: justify;
-    border-left: 2px outset #f61067;
 }
-
+.sobre h3{
+    font-size: 22px;
+    color: #f61067;
+}
 .img_aluno{
+    color: black;
     width: 10%;
     text-align: center;
-    font-style: italic;
     font-size: smaller;
     text-indent: 0;
     border: 1px groove #f61067;
     position: absolute;
     margin-top: 10px;
     margin-left: 90px;
-    background-color: #F0F9EC;
+    background-color:white;
 }
-
 .depoimento{
+    color: white;
     float: right;
     width: 70%;
     text-align: center;
-    border: 2px groove #004766;
+    border: 1px groove #f61067;
     margin-right: 10%;
     margin-top: 6%;
     padding: 5px;
 }
 .noticia {
+    color: white;
 	width: 100%;
     text-align: center;
-    border: 2px groove #004766;
-    margin-right: 10%;
-    margin-top: 6%;
-    padding: 5px;
+    border: 1px groove #f61067;
+    padding: 10px;
 }
 .noticia p {
 	text-align: justify;
@@ -192,22 +195,20 @@ ul{
 .noticia img{
 	text-align: center;
 }
-
 .depoimento p{
     padding: 5px;
 }
-
 .ex_alunos{
     display: table;
     width: 100%;
 }
-
 .ex_alunos h3{
-    border-bottom: 1px groove #f61067;
-    width: 49%;
+    font-size: 22px;
+    color: #f61067;
+    line-height: 150%;
+    width: 60%;
     margin-right: 80%;
 }
-
 .conteudo_noticia{
     width: 75%;
     text-align: justify;
@@ -217,7 +218,6 @@ ul{
     padding-right: 7px;
     line-height: 175%;
 }
-
 .feed_noticias h3{
     border-bottom: 1px groove #f61067;
     /*margin-right: 30%;*/
@@ -226,7 +226,6 @@ ul{
     position: absolute;
     margin-top: 7%;
 }
-
 .img_noticia{
     width: 18%;
     text-align: center;
@@ -236,32 +235,43 @@ ul{
     border: 1px groove #f61067;
     margin-left: 3%;
 }
-
-
-.disciplinas h3{text-align:center;
-background-color:#8d99ae;
+.disciplinas{
+    display: table;
+    width: 100%;
+}
+.disciplinas h3{
+    font-size: 22px;
+    color: #f61067;
+    line-height: 150%;
+    width: 60%;
+    margin-right: 80%;
+}
+.disciplinas h4{
+    text-align:center;
+    background-color:#f61067;
 } 
-2
-.informacoes_basicas h2{
-text-align:left;
-
+.informacoes_basicas{
+    display: table;
+    width: 100%;
+}
+.informacoes_basicas h3{
+    font-size: 22px;
+    color: #f61067;
+    line-height: 150%;
+    width: 60%;
+    margin-right: 80%;
 }
 .informacoes_basicas img{
-	height: 100px;
-	
+	height: 100px;	
 }
 .informacoes_basicas{
 	margin-top-:20px;
 }
-
 @media only screen and (max-width: 1056px){
-
     .navbar img{
-        height: 3.2em;
+        height: 3.1em;
+        padding-top: 0.5em;
     }
-/*    .navbar li {
-        float: left;
-    }*/
     .navbar li a {
         font-size: 10px;
         padding: 0;
@@ -290,8 +300,7 @@ text-align:left;
         text-align: justify;
     } 
     .navbar img{
-        height: 2em;
-		margin-top: .7em;
+        height: 2.8em;
     }
     .img_aluno{
         width: 50%;
