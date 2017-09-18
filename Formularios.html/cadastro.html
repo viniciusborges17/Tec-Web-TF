@@ -5,29 +5,29 @@
 <div class="padrão">
 	<h2> Cadastre-se!</h2>
 	<form  name="cadastro" method="POST"> 
-		<label for="nome">Nome: </label>
-		<input name = "nome"  id = "nome">
+		<label for="nome">Nome: </label><br/>
+		<input name = "nome"  id = "nome"><br/>
 		<br/>
-		<label for="sexo">Sexo: </label>
+		<label for="sexo">Sexo: </label><br/>
 	<select	id="sexo" name="sexo">
 			<option>Selecione</option>
 			<option value="m">Masculino</option>
 			<option value="f">Feminino</option>
-	</select>
+	</select><br/>
 		<br />
-		<label for="email">Email: </label>
-		<input name="email" type="email" id = "email">
+		<label for="email">Email: </label><br/>
+		<input name="email" type="email" id = "email"><br/>
 		<br />
-		<label for="telefone">Telefone: </label>
-		<input id="telefone" name = "telefone" type="tel">
+		<label for="telefone">Telefone: </label><br/>
+		<input id="telefone" name = "telefone" type="number"><br/>
 		<br/>
-		<label for="nasc">Data de nascimento: </label>
-		<input name = "nasc" type="datetime" id = "nasc">
+		<label for="nasc">Data de nascimento: </label><br/>
+		<input name = "nasc" type="datetime" id = "nasc"><br/>
 		<br/>
-		<label for="ra">RA: </label>
-		<input name = "RA" type="number" id = "ra">
+		<label for="ra">RA: </label><br/>
+		<input name = "RA" type="number" id = "ra"><br/>
 		<br/>
-		<label for="curso">Curso: </label>
+		<label for="curso">Curso: </label><br/>
 	<select>
 			<option>Selecione</option>
 			<option>Sistemas de informação</option>
@@ -35,5 +35,34 @@
 			<option>Gestão de SI</option>
 			<option>Análise e desenvolvimento</option>
 	</select>
-	</form>
+	<br/><br/>
+<div class="padrão">	
+	<h2>Endereço</h2>
+		<br/>
+	<label for="estado">Estado:</label>
+	<select>
+		<option>Selecione</option>
+			<option>SP</option>
+			<option>SC</option>
+			<option>MG</option>
+			<option>MT</option>
+	</select>
+		<br/><br/>
+		<label for="cidade">cidade:</label><br/>
+		<input name="cidade" id="cidade"><br/><br/>
+		<label for="bairro">bairro:</label><br/>
+		<input name="bairro" id="bairro"><br/><br/>
+		<label for="endereço">Endereço:</label><br/>
+		<input name="endereço" id="endereço"><br/><br/>
+		<label for="numero">Numero:</label><br/>
+		<input name="numero" id="endereço"><br/><br/>
+		
+	<button type="submit">cadastrar</button>
+
+	
+	
+	
+</form>
+	
+	
 </div>
