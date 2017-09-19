@@ -287,7 +287,6 @@ ul{
 .informacoes_basicas{
 	margin-top-:20px;
 }
-
 input:focus, select:focus {
 	outline:0;
 }
@@ -322,7 +321,6 @@ button{
 .subtitulo {
 	color: rgba(246, 16, 103, .9);
 }
-
 @media only screen and (max-width: 1056px){
     .navbar img{
         height: 3.1em;
