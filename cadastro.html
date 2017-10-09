@@ -53,6 +53,7 @@
                     <br/>
                     <label for="nasc">Data de nascimento: </label>
                     <br/>
+                    <!-- Tipo date -->
                     <input name="nasc" type="datetime" id="nasc">
                     <br/>
                     <br/>
@@ -63,7 +64,7 @@
                     <br/>
                     <label for="curso">Curso: </label>
                     <br/>
-                    <select>
+                    <select> <!-- Sem name e id para o label -->
                         <option>Selecione</option>
                         <option>Sistemas de informação</option>
                         <option>Redes</option>
@@ -78,7 +79,7 @@
                         </span>
                         <br/>
                         <label for="estado">Estado:</label>
-                        <select>
+                        <select>  <!-- Sem name e id para o label -->
                             <option>Selecione</option>
                             <option>SP</option>
                             <option>SC</option>
@@ -99,6 +100,7 @@
                         <br/>
                         <label for="endereço">Endereço:</label>
                         <br/>
+                         <!-- Não use cedilhas ou acentos nos atributos -->
                         <input name="endereço" id="endereço">
                         <br/>
                         <br/>
