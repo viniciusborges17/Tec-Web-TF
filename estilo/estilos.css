@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #f61067;
+    background-color: #cc00ff;
 }
 h1{
 	text-align: center;
@@ -44,7 +44,7 @@ h1{
 }
 .propaganda img{
     width: 100%;
-    border-bottom: 1px groove #f61067;
+    border-bottom: 1px groove #cc00ff;
     display: none;
     padding-top: 7.5%;
 }
@@ -64,7 +64,7 @@ h1{
     top: 0;
     width: 100%;
     text-align: center;
-    border-bottom: 1px groove #f61067;
+    border-bottom: 1px groove #cc00ff;
     margin-top: -1%;
     height: 100px;
     position: fixed;
@@ -97,7 +97,7 @@ ul{
 .navbar a:hover {
 /*  background-color: #ddd;*/
   color: #ababab;
-  border-bottom: 5px solid #f61067;
+  border-bottom: 5px solid #cc00ff;
 }
 .cursos_geral{
     display: table;
@@ -105,7 +105,7 @@ ul{
 }
 .cursos_geral h3{
     font-size: 22px;
-    color: #f61067;
+    color: #cc00ff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
@@ -116,7 +116,7 @@ ul{
     text-align: center;
     font-size: smaller;
     text-indent: 0;
-    border: 1px groove #f61067;
+    border: 1px groove #cc00ff;
     background-color: black;
     position: absolute;
 }
@@ -127,7 +127,7 @@ ul{
     float: right;
     width: 80%;
     text-align: center;
-    border: 1px groove #f61067;
+    border: 1px groove #cc00ff;
     margin-top: 2em;
     margin-left: 10%;
     line-height: 150%;
@@ -147,7 +147,7 @@ ul{
 .footer{
     text-align: center;
     background-color: black;
-    border-top: 1px groove #f61067;
+    border-top: 1px groove #cc00ff;
     color: #ababab;
     padding: 0;
     position: flex;
@@ -165,7 +165,7 @@ ul{
     color: black;
 }
 .conteudo_curso:hover{
-    border-bottom: 5px solid #f61067;
+    border-bottom: 5px solid #cc00ff;
 }
 .curriculo{
     text-decoration: underline;
@@ -179,14 +179,14 @@ ul{
 }
 .sobre h3{
     font-size: 22px;
-    color: #f61067;
+    color: #cc00ff;
 }
 .img_aluno{
     width: 10%;
     text-align: center;
     font-size: smaller;
     text-indent: 0;
-    border: 1px groove #f61067;
+    border: 1px groove #cc00ff;
     position: absolute;
     margin-top: 10px;
     margin-left: 90px;
@@ -197,7 +197,7 @@ ul{
     float: right;
     width: 70%;
     text-align: center;
-    border: 1px groove #f61067;
+    border: 1px groove #cc00ff;
     margin-right: 10%;
     margin-top: 6%;
     padding: 5px;
@@ -206,7 +206,7 @@ ul{
     color: #ababab;
 	width: 100%;
     text-align: center;
-    border: 1px groove #f61067;
+    border: 1px groove #cc00ff;
     padding: 10px;
 }
 .noticia p {
@@ -224,7 +224,7 @@ ul{
 }
 .ex_alunos h3{
     font-size: 22px;
-    color: #f61067;
+    color: #cc00ff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
@@ -239,7 +239,7 @@ ul{
     line-height: 175%;
 }
 .feed_noticias h3{
-    border-bottom: 1px groove #f61067;
+    border-bottom: 1px groove #cc00ff;
     /*margin-right: 30%;*/
     margin-left:18%;
     margin-right: 25%;
@@ -252,7 +252,7 @@ ul{
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: 1px groove #f61067;
+    border: 1px groove #cc00ff;
     margin-left: 3%;
 }
 .disciplinas{
@@ -261,14 +261,14 @@ ul{
 }
 .disciplinas h3{
     font-size: 22px;
-    color: #f61067;
+    color: #cc00ff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
 }
 .disciplinas h4{
     text-align:center;
-    background-color:#f61067;
+    background-color:#cc00ff;
 } 
 .informacoes_basicas{
     display: table;
@@ -276,7 +276,7 @@ ul{
 }
 .informacoes_basicas h3{
     font-size: 22px;
-    color: #f61067;
+    color: #cc00ff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
@@ -373,6 +373,7 @@ button{
     }
     .navbar li:first-of-type {
            display: block;
+           background-color: #001;
     }
     .depoimento p{
         text-align: justify;
@@ -410,3 +411,7 @@ button{
         width: 40%;
     }
 }
+
+/*#1024f6*/
+/*cc00ff*/
+

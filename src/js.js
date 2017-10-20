@@ -1,9 +1,13 @@
 var menu = document.querySelectorAll('a')[1];
 var toggle = [];
-var ativo = false;
+var ativo = true;
 var w = window.innerWidth;
 
 var ligaDesliga = document.querySelectorAll('.navbar li');
+
+if(window.innerWidth < 400){
+	console.log("menor");
+}
 
 menu.addEventListener('click', function(){
 	if(ativo == true){
