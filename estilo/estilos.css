@@ -290,6 +290,9 @@ ul{
 input:focus, select:focus {
 	outline:0;
 }
+.hidden {
+    display: none;
+}
 
 input, select {
 	margin:0;
@@ -327,7 +330,7 @@ button{
         padding-top: 0.5em;
     }
     .navbar li a {
-        font-size: 10px;
+        /*font-size: 10px;*/
         padding: 0;
         padding: 20px;
     }
@@ -352,16 +355,31 @@ button{
         margin: 28% 10% 10% 0%;
     }
     .navbar li a {
-        font-size: 11px;
+        /*font-size: 11px;*/
         padding: 0;
         padding: 20px 10px;
+        /*display: none;*/
+    }
+    .navbar ul {
+        overflow: visible;
+    }
+    .hidden {
+        display: block;
+    }
+    .navbar li {
+        float: none;
+        background-color: black;
+        display: none;
+    }
+    .navbar li:first-of-type {
+           display: block;
     }
     .depoimento p{
         text-align: justify;
     } 
     .navbar img{
         height: 2.7em;
-
+        display: none;
     }
     .img_aluno{
         width: 50%;
