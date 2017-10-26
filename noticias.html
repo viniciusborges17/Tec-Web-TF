@@ -15,28 +15,33 @@
                 <li><a href='index.html'>Home Page</a></li>
                 <li><a href='cursos.html'>Cursos</a></li>
                 <li><a href='noticias.html'>Notícias</a></li>
+                <li><a href='login.html'>Login</a></li>
             </ul>
         </div>
+        <div class='propaganda'>
+            <img src="imagens/propaganda.png"/>
+            <img src="imagens/propaganda2.png"/>
+        </div>
         <div class="body">
-            <div class='ex_alunos'>
-                <h3>Equipe de alunos e alunas da FaTecCi vencem Hackathon com temática TRANSPARÊNCIA DE DADOS</h3><!-- Onde estão o H1 e H2? -->
-                <div class="noticia">
-                    <p>No último domingo, 20, a equipe formada por Maria, José e João - todos <em>alunos da FaTecCi</em> - venceu o <em>Hackathon "De olho na política",</em> promovido por diversas entidades do Terceiro Setor e da sociedade civil organizada em geral. No evento, os competidores apresentaram propostas de plataformas e aplicativos para controle da população sobre campanhas e candidaturas em períodos de eleição. O evento contou com 50 equipes (150 alunos) e reuniu mais de 10 faculdade e 15 ONGs internacionais.</p>
-					<img src='imagens/hackathon-2.jpg' />
-                    <p>Maria, José e João desenvolveram um sistema que oferece aos usuários um perfil de cada um dos candidatos, contendo dados públicos sobre os mesmos, além de permitir que o usuários escolham os candidato sobre os quais desejam receber atualizações no feed de notícias, que apresenta diariamente a notícias dos principais jornais do país que envolvem os candidatos escolhidos.</p>
+            <form id="disciplina">
+                <div class="row">
+                    <label for="prof">Professor Responsável:</label><br />
+                    <input id="prof" name="prof" type="text"   /><br />
+                    <label for="hora">Horas Mensais:</label><br />
+                    <input id="hora" name="horas" type="text"   /><br />   
+                    <label for="aula"> Duração da aula:</label><br />
+                    <input id="aula" name="aula"  type="text"   /><br />
+                    <label for="dia"> Dia da Semana :</label><br />
+                    <input id="dia" name="dia"  type="text" value=""  /><br />
+                    <label for="ementa"> Ementa:</label><br />
+                    <textarea id="ementa" name="ementa" type=text > </textarea><br />
                 </div>
-            </div>
-			<div class='ex_alunos'>
-                <h3>Equipe de alunos e alunas da FaTecCi vencem Hackathon com temática TRANSPARÊNCIA DE DADOS</h3><!-- Onde estão o H1 e H2? -->
-                <div class="noticia">
-                    <p>No último domingo, 20, a equipe formada por Maria, José e João - todos <em>alunos da FaTecCi</em> - venceu o <em>Hackathon "De olho na política",</em> promovido por diversas entidades do Terceiro Setor e da sociedade civil organizada em geral. No evento, os competidores apresentaram propostas de plataformas e aplicativos para controle da população sobre campanhas e candidaturas em períodos de eleição. O evento contou com 50 equipes (150 alunos) e reuniu mais de 10 faculdade e 15 ONGs internacionais.</p>
-					<img src='imagens/hackathon-2.jpg' />
-                    <p>Maria, José e João desenvolveram um sistema que oferece aos usuários um perfil de cada um dos candidatos, contendo dados públicos sobre os mesmos, além de permitir que o usuários escolham os candidato sobre os quais desejam receber atualizações no feed de notícias, que apresenta diariamente a notícias dos principais jornais do país que envolvem os candidatos escolhidos.</p>
-                </div>
-            </div>
+                <input id="limpar" type="reset" value="Limpar"/>
+                <input id="cadastrar" type="submit" value="Cadastar" />
+            </form>
         </div>
         <div class='footer'>
-                <p>FACULDADE TECNOLOGIA E CIDADANIA - FaTecCi <br />Contato: (11) 9 9999-9999</p>
+            <p>FACULDADE TECNOLOGIA E CIDADANIA - FaTecCi <br />Contato: (11) 9 9999-9999</p>
         </div>
     </body>
 </html>
