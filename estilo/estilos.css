@@ -27,6 +27,7 @@ body::-webkit-scrollbar
 body::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #f61067;
 }
@@ -287,40 +288,50 @@ ul{
 	height: 100px;	
 }
 .informacoes_basicas{
-	margin-top-:20px;
+	margin-top:20px;
 }
-input:focus, select:focus {
-	outline:0;
+input:focus, select:focus, textarea:focus {
+    outline:0;
+    background-color: #aaa;
 }
 .hidden {
     display: none;
 }
 
-input, select {
+input, select, textarea {
 	margin:0;
 	border: 1px solid #575757;
-	padding:0;
+	padding:0.1%;
 	width: 100%;
-	font-size: 16px;
-	background: rgba(87, 87, 87, .5);
+	font-size: 1.1em;
+    background-color: rgba(189, 189, 189, 0.50);
+    color: #111;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 26px;
 }	
-#mensagem {	
+
+label{
+    font-size: 1.1em;
+}
+/* #mensagem {	
 	max-width: 100%;
 	margin: 0;
 	border: 1px solid #575757;
 	width: 100%;
 	COLOR: blue;
 	background-color:rgba(87, 87, 87, 0.5);
-}
+} */
 button{
 	margin: 2% 0%;
 	border: 0;
-	color: #575757;
+	color: #ababab;
 	border-radius: 4px;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 	width: 100%;
 	height: 30px;
-	background-color: rgba(246, 16, 103, 0.5);
+    background-color: rgba(246, 16, 103, 0.5);
+    cursor: pointer;
 }
 
 .subtitulo {
