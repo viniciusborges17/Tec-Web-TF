@@ -31,7 +31,11 @@ body::-webkit-scrollbar-thumb
 h1{
 	text-align: center;
 	margin-top: 1em;
-	margin-bottom: 0;
+    margin-bottom: 0;
+    color: #f61067;
+}
+h2{
+    color: #f61067;
 }
 .container{
 	margin-left: 1.5em;
@@ -46,7 +50,7 @@ h1{
     width: 100%;
     border-bottom: 1px groove #f61067;
     display: none;
-    padding-top: 7.5%;
+    padding-top: 6.5%;
 }
 .propaganda img:first-of-type {
     display: block;
@@ -380,7 +384,7 @@ button{
     }
     .propaganda img:last-of-type {
         display: block;
-        margin-top: 2.8em;
+        margin-top: 1em;
     }
     .conteudo_curso p{
         color: #ababab;
