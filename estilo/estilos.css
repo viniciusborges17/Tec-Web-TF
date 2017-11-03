@@ -7,6 +7,8 @@
 
 /*1037x662*/
 
+
+
 * {
     box-sizing: border-box;
 }
@@ -31,11 +33,7 @@ body::-webkit-scrollbar-thumb
 h1{
 	text-align: center;
 	margin-top: 1em;
-    margin-bottom: 0;
-    color: #f61067;
-}
-h2{
-    color: #f61067;
+	margin-bottom: 0;
 }
 .container{
 	margin-left: 1.5em;
@@ -50,7 +48,7 @@ h2{
     width: 100%;
     border-bottom: 1px groove #f61067;
     display: none;
-    padding-top: 6.5%;
+    padding-top: 7.5%;
 }
 .propaganda img:first-of-type {
     display: block;
@@ -294,6 +292,9 @@ ul{
 input:focus, select:focus {
 	outline:0;
 }
+.hidden {
+    display: none;
+}
 
 input, select {
 	margin:0;
@@ -331,7 +332,7 @@ button{
         padding-top: 0.5em;
     }
     .navbar li a {
-        font-size: 10px;
+        /*font-size: 10px;*/
         padding: 0;
         padding: 20px;
     }
@@ -356,16 +357,32 @@ button{
         margin: 28% 10% 10% 0%;
     }
     .navbar li a {
-        font-size: 11px;
+        /*font-size: 11px;*/
         padding: 0;
         padding: 20px 10px;
+        /*display: none;*/
+    }
+    .navbar ul {
+        overflow: visible;
+    }
+    .hidden {
+        display: block;
+    }
+    .navbar li {
+        float: none;
+        background-color: black;
+        display: none;
+    }
+    .navbar li:first-of-type {
+           display: block;
+           background-color: #001;
     }
     .depoimento p{
         text-align: justify;
     } 
     .navbar img{
         height: 2.7em;
-
+        display: none;
     }
     .img_aluno{
         width: 50%;
@@ -384,7 +401,7 @@ button{
     }
     .propaganda img:last-of-type {
         display: block;
-        margin-top: 1em;
+        margin-top: 2.8em;
     }
     .conteudo_curso p{
         color: #ababab;
@@ -396,3 +413,7 @@ button{
         width: 40%;
     }
 }
+
+/*#1024f6*/
+/*f61067*/
+
