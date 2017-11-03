@@ -42,7 +42,7 @@ h1{
 
 .body{
 	padding: 0% 2% 0% 2%;
-	height: 100%;
+	min-height: 50%;
     margin: 6% 8% 6% 8%;
 }
 .propaganda img{
@@ -313,7 +313,14 @@ input, select, textarea {
 
 label{
     font-size: 1.1em;
+    float: left;
 }
+
+li a i{
+    font-family: 'Encode Sans';
+}
+
+
 /* #mensagem {	
 	max-width: 100%;
 	margin: 0;
@@ -338,8 +345,18 @@ button{
 	color: rgba(246, 16, 103, .9);
 }
 
+.formulario{
+    width: 50%;
+    margin: 0;
+}
+
+.links a{
+    color: grey;
+}
+
 
 @media only screen and (max-width: 1056px){
+
     .navbar img{
         height: 3.1em;
         padding-top: 0.5em;
@@ -361,13 +378,15 @@ button{
         margin: 22% 15% 15% 15%;
         padding: 5%;
     }
-
 }
 @media only screen and (max-width: 760px){
     .depoimento { 
         margin: 0;
         padding: 10% 1% 0% 1%;
         margin: 28% 10% 10% 0%;
+    }
+    .formulario{
+        width: 100%;
     }
     .navbar li a {
         /*font-size: 11px;*/
