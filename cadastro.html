@@ -26,7 +26,7 @@
                 <h2> Cadastre-se!</h2>
             </span>
             <div class="formulario">
-                <form name="cadastro" method="POST">
+                <form name="cadastro" id="cadastro" method="POST">
                     <label for="nome">Nome: </label>
                     <br/>
                     <input name="nome" id="nome">
@@ -35,8 +35,8 @@
                     <label for="sexo">Sexo: </label>
                     <br/>
                     <select id="sexo" name="sexo">
-                        <option>Selecione</option>
-                        <option value="m">Masculino</option>
+                    <option id="sexo" >Selecione</option>
+                        <option value="m" >Masculino</option>
                         <option value="f">Feminino</option>
                     </select>
                     <br/>
@@ -64,7 +64,7 @@
                     <label for="curso">Curso: </label>
                     <br/>
                     <select name="curso" id="curso"> 
-                        <option>Selecione</option>
+                        <option id="curso">Selecione</option>
                         <option>Sistemas de informação</option>
                         <option>Redes</option>
                         <option>Gestão de SI</option>
@@ -79,7 +79,7 @@
                         <br/>
                         <label for="estado">Estado:</label>
                         <select name="estado" id="estado"> 
-                            <option>Selecione</option>
+                            <option id="estado">Selecione</option>
                             <option>SP</option>
                             <option>SC</option>
                             <option>MG</option>
@@ -104,7 +104,7 @@
                         <br/>
                         <label for="numero">Número:</label>
                         <br/>
-                        <input name="numero" id="endereco">
+                        <input name="numero" id="numero">
                         <br/>
                         <br/>
                         <button type="submit">Cadastrar</button>
@@ -117,5 +117,6 @@
                 <br />Contato: (11) 9 9999-9999
             </p>
         </div>
+        <script type="text/javascript" src="src/js.js"></script>
     </body>
 </html>
