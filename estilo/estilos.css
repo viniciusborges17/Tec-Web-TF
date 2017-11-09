@@ -1,8 +1,6 @@
 /*
-#f61068 pink
-#2b2d42 blue
+#f61068 blue Fatecci
 #8d99af light gray
-#004765 another blue
 */
 
 /*1037x662*/
@@ -29,7 +27,7 @@ body::-webkit-scrollbar-thumb
     border-radius: 10px;
     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #f61067;
+    background-color: #00cdff;
 }
 h1{
 	text-align: center;
@@ -47,9 +45,9 @@ h1{
 }
 .propaganda img{
     width: 100%;
-    border-bottom: 1px groove #f61067;
+    border-bottom: 1px groove #00cdff;
     display: none;
-    padding-top: 7.5%;
+    padding-top: 4%;
 }
 .propaganda img:first-of-type {
     display: block;
@@ -67,7 +65,7 @@ h1{
     top: 0;
     width: 100%;
     text-align: center;
-    border-bottom: 1px groove #f61067;
+    border-bottom: 1px groove #00cdff;
     margin-top: -1%;
     height: 100px;
     position: fixed;
@@ -100,7 +98,7 @@ ul{
 .navbar a:hover {
 /*  background-color: #ddd;*/
   color: #ababab;
-  border-bottom: 5px solid #f61067;
+  border-bottom: 5px solid #00cdff;
 }
 .cursos_geral{
     display: table;
@@ -108,7 +106,7 @@ ul{
 }
 .cursos_geral h3{
     font-size: 22px;
-    color: #f61067;
+    color: #00cdff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
@@ -119,7 +117,7 @@ ul{
     text-align: center;
     font-size: smaller;
     text-indent: 0;
-    border: 1px groove #f61067;
+    border: 1px groove #00cdff;
     background-color: black;
     position: absolute;
 }
@@ -130,7 +128,7 @@ ul{
     float: right;
     width: 80%;
     text-align: center;
-    border: 1px groove #f61067;
+    border: 1px groove #00cdff;
     margin-top: 2em;
     margin-left: 10%;
     line-height: 150%;
@@ -150,7 +148,7 @@ ul{
 .footer{
     text-align: center;
     background-color: black;
-    border-top: 1px groove #f61067;
+    border-top: 1px groove #00cdff;
     color: #ababab;
     padding: 0;
     position: flex;
@@ -168,7 +166,7 @@ ul{
     color: black;
 }
 .conteudo_curso:hover{
-    border-bottom: 5px solid #f61067;
+    border-bottom: 5px solid #00cdff;
 }
 .curriculo{
     text-decoration: underline;
@@ -182,14 +180,14 @@ ul{
 }
 .sobre h3{
     font-size: 22px;
-    color: #f61067;
+    color: #00cdff;
 }
 .img_aluno{
     width: 10%;
     text-align: center;
     font-size: smaller;
     text-indent: 0;
-    border: 1px groove #f61067;
+    border: 1px groove #00cdff;
     position: absolute;
     margin-top: 10px;
     margin-left: 90px;
@@ -200,7 +198,7 @@ ul{
     float: right;
     width: 70%;
     text-align: center;
-    border: 1px groove #f61067;
+    border: 1px groove #00cdff;
     margin-right: 10%;
     margin-top: 6%;
     padding: 5px;
@@ -209,7 +207,7 @@ ul{
     color: #ababab;
 	width: 100%;
     text-align: center;
-    border: 1px groove #f61067;
+    border: 1px groove #00cdff;
     padding: 10px;
 }
 .noticia p {
@@ -227,7 +225,7 @@ ul{
 }
 .ex_alunos h3{
     font-size: 22px;
-    color: #f61067;
+    color: #00cdff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
@@ -242,7 +240,7 @@ ul{
     line-height: 175%;
 }
 .feed_noticias h3{
-    border-bottom: 1px groove #f61067;
+    border-bottom: 1px groove #00cdff;
     /*margin-right: 30%;*/
     margin-left:18%;
     margin-right: 25%;
@@ -255,7 +253,7 @@ ul{
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: 1px groove #f61067;
+    border: 1px groove #00cdff;
     margin-left: 3%;
 }
 .disciplinas{
@@ -264,14 +262,14 @@ ul{
 }
 .disciplinas h3{
     font-size: 22px;
-    color: #f61067;
+    color: #00cdff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
 }
 .disciplinas h4{
     text-align:center;
-    background-color:#f61067;
+    background-color:#00cdff;
 } 
 .informacoes_basicas{
     display: table;
@@ -279,7 +277,7 @@ ul{
 }
 .informacoes_basicas h3{
     font-size: 22px;
-    color: #f61067;
+    color: #00cdff;
     line-height: 150%;
     width: 60%;
     margin-right: 80%;
