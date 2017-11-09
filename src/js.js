@@ -38,11 +38,6 @@ document.getElementById("login").onsubmit=function(event){
 
 };
 
-
-
-
-
-
 document.getElementById("cadastro").onsubmit=function(event){
 	var nomeCampo = document.getElementById("nome");
 	var sexoCampo = document.getElementById("sexo");
