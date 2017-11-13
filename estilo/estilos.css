@@ -10,6 +10,20 @@
 * {
     box-sizing: border-box;
 }
+
+.right {
+	float: right;
+	width: 70%;
+/* 		height: 100%; */
+	padding: 0 8%;
+}
+.left {
+	float: left;
+	width: 30%;
+/* 	height: 100%; */
+	padding: 0 8%;
+	border: 5px solid #fff;
+}
 body {
     color: #575757;
 	margin: 0;
@@ -151,9 +165,9 @@ ul{
     border-top: 1px groove #00cdff;
     color: #ababab;
     padding: 0;
-    position: flex;
     overflow: hidden;
     margin-top: 10px;
+	width: 100%;
 }
 .footer p{
     /*margin-top: 5px;*/
