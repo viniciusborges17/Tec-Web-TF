@@ -388,6 +388,11 @@ button{
 .links a{
     color: grey;
 }
+
+.adless {
+    padding: 5.5% 0;
+    min-height: 550px;
+}
 @media only screen and (max-width: 1056px){
 
     .navbar img{
