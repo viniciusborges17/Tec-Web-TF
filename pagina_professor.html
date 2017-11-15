@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Aluno - FaTecCi</title>
+        <title>Professor - FaTecCi</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="estilo/estilos.css">
         <link rel="icon" href="imagens/favicon.png">
@@ -26,10 +26,8 @@
                 <div class="left">
                     <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />     
                     <ul>
-                        <li>Nome do aluno: Victor Camilo</li>
-                        <li>RA do aluno: 1700608</li>
-                        <li>Curso do aluno: Sistemas de informação</li>
-                        <li>Semestre do aluno: 2º</li>
+                        <li>Nome do professor: Victor Camilo</li>
+                        <li>RA do professor: 1700608</li>
                     </ul>
                 </div>
                 <div class="right">
@@ -42,8 +40,20 @@
                     </div>
                 </div>
                 <div class="right">
+                        <div>
+                            <i class="fa fa-exclamation"></i><h2>Cadastrar avisos:</h2>
+                            <form name="cadastro_aviso" method="POST">
+                                <label for="titulo_aviso">Título do aviso: </label>
+                                <input type="text" id="titulo_aviso" placeholder="Insira seu texto..."/>
+                                <label for="texto_aviso">Descrição do aviso: </label>
+                                <textarea id="texto_aviso"></textarea>
+                                <button>Publicar: </button>
+                            </form>
+                        </div>
+                    </div>
+                <div class="right">
                     <div>
-                            <i class="fa fa-info-circle"></i><h2>Entregas pendentes:</h2>
+                        <i class="fa fa-info-circle"></i><h2>Entregas recebidas:</h2>
                         <ul>
                             <li class="entregar">Título Matéria 1:
                                 <ul>
