@@ -32,9 +32,9 @@
     <div class="formulario">
         <form  name="login" method="POST" id="login">
             <label for="loginra"><i class="fa fa-unlock-alt"></i> Identificador</label>:<br/>
-            <input type="text" name="loginra" id="loginra" class="input"><br><br/>
+            <input type="text" name="loginra" id="loginra" class="input" required><br><br/>
             <label for="senha"><i class="fa fa-asterisk"></i> Senha</label>:<br/>
-            <input name="senha" type="password" id="senha" class="input"><br/><br/>
+            <input name="senha" type="password" id="senha" class="input" min="5" required><br/><br/>
             <button type="reset"  class="botao">Limpar</button>
             <button type="submit" class="botao">Enviar</button><br/><br/>
             <label for="lembrar">Lembrar de mim? </label>

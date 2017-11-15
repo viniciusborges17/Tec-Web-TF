@@ -19,18 +19,9 @@ menu.addEventListener('click', function(){
 	}
 });
 
-document.getElementById("login").onsubmit=function(event){
-	var raCampo = document.getElementById("ra");
-	var senhaCampo = document.getElementById("senha");
-	if(raCampo.value == "") {
-	    alert("Campo obrigatório não preenchido");
-	    return false;
-	}
-	if(senhaCampo.value == "") {
-	    alert("Campo obrigatório não preenchido");
-	    return false;
-	}
+// document.getElementById('loginra').addEventListener('blur', function(){
+// 	var valor = document.getElementById('loginra').value;
+// 	if(valor === ""){
 
-};
-
-
+// 	}
+// });
