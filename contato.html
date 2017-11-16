@@ -18,36 +18,35 @@
             </ul>
         </div>
         <div class='propaganda'>
-                <img src="imagens/propaganda.png"/>
-                <img src="imagens/propaganda2.png"/>
+            <img src="imagens/propaganda.png"/>
+            <img src="imagens/propaganda2.png"/>
         </div>
-	<div class="body">
-
-<form id="contanto" >
-	<div class="row">
-		<label for="nome">Nome:</label><br />
-		<input id="nome" name="nome"  type="text"  /><br />
-                Assunto :<br/>
-                <select name="assunto">
-                <option value="prof">Professores</option>
-                <option value="falta">Presença</option>
-                <option value="cursos">Cursos</option>
-                <option value="documentações">Documentações</option>
-                </select>
-	
-		<label for="email"><br> Email:</label><br />
-		<input id="email" name="email" type="text"  /><br />
-               
-                <label for="mensagem"> Mensagem:</label><br />
-                <textarea id="mensagem" type="text"> </textarea>
-	</div>
-	<input id="limpar" type="reset" value="Limpar"/>
-	<input id="enviar" type="submit" value="Enviar" />
-</form>		
-<div class='footer'>
-                <p>FACULDADE TECNOLOGIA E CIDADANIA - FaTecCi <br />Contato: (11) 9 9999-9999</p>
+        <div class="body">
+            <div class="formulario">
+                <form id="contanto" >
+                    <div class="row">
+                        <label for="nome">Nome:</label><br />
+                        <input id="nome" name="nome"  type="text" required /><br />
+                    <label for="assunto">Assunto :<br/>
+                        <select name="assunto" required>
+                            <option value="prof">Professores</option>
+                            <option value="falta">Presença</option>
+                            <option value="cursos">Cursos</option>
+                            <option value="documentações">Documentações</option>
+                        </select>
+                        <label for="email"><br> Email:</label><br />
+                        <input id="email" name="email" type="text" required /><br />
+                        <label for="mensagem"> Mensagem:</label><br />
+                        <textarea id="mensagem" type="text" name="mensagem" required> </textarea>
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+            <br />
         </div>
-	</div>
-	</body>
-	
+        <div class='footer'>
+            <p>FACULDADE TECNOLOGIA E CIDADANIA - FaTecCi <br />Contato: (11) 9 9999-9999</p>
+        </div>
+    </body>
 </html>
